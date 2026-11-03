@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
-metadat:
+metadata:
  name: wisecow-service
 sepc:
  selector:
    app: wisecow
-  ports:
-    -port: 80
-  targetPort: 4499
-type: LoadBalancer
+ ports:
+   - port: 80
+   targetPort: 4499
+ type: LoadBalancer
