@@ -1,5 +1,5 @@
 FROM ubuntu:22.04
-RUN apt-get updaye && apt-get install -y fortune cowsay netcat-openbsd && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y fortune cowsay netcat-openbsd && re -rf /var/lib/apt/lists/*
 ENV PATH ="usr/games:${PATH}"
 WORKDIR /app
 COPY wisecow.sh .
