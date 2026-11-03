@@ -7,5 +7,5 @@ sepc:
    app: wisecow
  ports:
    - port: 80
-   targetPort: 4499
+    targetPort: 4499
  type: LoadBalancer
